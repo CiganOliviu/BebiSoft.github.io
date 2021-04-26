@@ -7,20 +7,15 @@
   margin-top: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  filter: brightness(90%); }
 
 .wallpaper .padding {
   margin-top: 15%; }
 
 .wallpaper .logo img {
-  z-index: 2;
-  position: relative; }
-
-.wallpaper .logo {
-  position: relative;
-  z-index: 1;
-  padding: 5%;
-  width: 30%;
-  background-color: rgba(255, 0, 0, 0.2); }
+  width: 100%;
+  border-radius: 5%;
+  padding: 10%; }
 
 /*# sourceMappingURL=style.css.map */
