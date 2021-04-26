@@ -1,1 +1,26 @@
-/* sass will generate code here */
+/* your sass code here */
+.wallpaper {
+  background-image: url("../images/wallpaper.jpg");
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.wallpaper .padding {
+  margin-top: 15%; }
+
+.wallpaper .logo img {
+  z-index: 2;
+  position: relative; }
+
+.wallpaper .logo {
+  position: relative;
+  z-index: 1;
+  padding: 5%;
+  width: 30%;
+  background-color: rgba(255, 0, 0, 0.2); }
+
+/*# sourceMappingURL=style.css.map */
