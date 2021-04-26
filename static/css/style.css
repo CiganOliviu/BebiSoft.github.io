@@ -1,4 +1,5 @@
 /* your sass code here */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 .wallpaper {
   background-image: url("../images/wallpaper.jpg");
   color: #fff;
@@ -8,14 +9,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  filter: brightness(90%); }
+  filter: brightness(90%);
+  font-family: "Dancing Script", cursive; }
 
 .wallpaper .padding {
-  margin-top: 15%; }
+  margin-top: 5%; }
 
 .wallpaper .logo img {
   width: 100%;
   border-radius: 5%;
   padding: 10%; }
+
+.wallpaper .introduction h1 {
+  padding: 2%;
+  font-size: 80px; }
+
+.wallpaper .introduction h2 {
+  padding: 2%;
+  font-size: 60px; }
 
 /*# sourceMappingURL=style.css.map */
