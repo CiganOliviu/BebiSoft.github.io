@@ -15,6 +15,9 @@
 .wallpaper .padding {
   margin-top: 5%; }
 
+.wallpaper .huge-padding {
+  margin-top: 12%; }
+
 .wallpaper .logo img {
   width: 100%;
   border-radius: 5%;
@@ -27,5 +30,8 @@
 .wallpaper .introduction h2 {
   padding: 2%;
   font-size: 60px; }
+
+.wallpaper .copyright {
+  font-size: 25px; }
 
 /*# sourceMappingURL=style.css.map */
