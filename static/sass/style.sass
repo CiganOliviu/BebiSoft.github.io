@@ -8,7 +8,7 @@ body
   color: #ffffff
 
 .wallpaper
-  background-image: url('../images/wallpaper.jpg')
+  background-image: url('../images/wallpaper.jpeg')
   color: #fff
   height: 100vh
   width: 100%
@@ -20,15 +20,24 @@ body
   font-family: 'Dancing Script', cursive
 
 .wallpaper .padding
-  margin-top: 5%
+  margin-top: 8%
 
 .wallpaper .huge-padding
-  margin-top: 12%
+  margin-top: 10%
 
 .wallpaper .logo img
   width: 100%
   border-radius: 5%
   padding: 10%
+
+.wallpaper .repos a
+  color: #ffffff
+  font-size: 40px
+  transition: all 500ms ease
+
+.wallpaper .repos a:hover
+  color: #f40009
+  text-decoration: none
 
 .wallpaper .introduction h1
   padding: 2%
@@ -36,7 +45,7 @@ body
 
 .wallpaper .introduction h2
   padding: 2%
-  font-size: 60px
+  font-size: 70px
 
 .wallpaper .copyright
   font-size: 25px
@@ -66,5 +75,23 @@ body
 #Java
   color: darkorange
 
+#Python
+  color: dodgerblue
+
 .copyright p
   padding: 2%
+
+
+@media (max-width: 700px)
+
+  .wallpaper .introduction h1
+    font-size: 50px
+
+  .wallpaper .introduction h2
+    font-size: 50px
+
+  .wallpaper .repos a
+    font-size: 30px
+
+  .wallpaper .huge-padding
+    margin-top: 25%
