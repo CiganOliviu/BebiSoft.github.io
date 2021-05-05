@@ -21,7 +21,7 @@ body {
   margin-top: 8%; }
 
 .wallpaper .huge-padding {
-  margin-top: 12%; }
+  margin-top: 10%; }
 
 .wallpaper .logo img {
   width: 100%;
@@ -44,10 +44,6 @@ body {
 .wallpaper .introduction h2 {
   padding: 2%;
   font-size: 60px; }
-
-.quote {
-  background: #000;
-  opacity: 0.7; }
 
 .wallpaper .copyright {
   font-size: 25px; }
